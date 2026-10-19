@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these derived tables, please cite this repository and the source WAW-TACE dataset below."
+title: "Analysis code and derived data: peritumoral CT radiomics and overall survival after TACE in hepatocellular carcinoma (WAW-TACE)"
+type: software
+authors:
+  - name: "Anonymous"
+license: MIT
+keywords:
+  - hepatocellular carcinoma
+  - transarterial chemoembolization
+  - radiomics
+  - peritumoral
+  - CT
+  - overall survival
+  - reproducibility
+references:
+  - type: dataset
+    title: "WAW-TACE: A Hepatocellular Carcinoma Multiphase CT Dataset with Segmentations, Radiomics Features, and Clinical Data"
+    authors:
+      - name: "Bartnik K, Bartczak T, Krzyzinski M, et al."
+    url: "https://zenodo.org/records/12741586"
+    notes: "Radiol Artif Intell 2024;6(6):e240296. CC BY 4.0."

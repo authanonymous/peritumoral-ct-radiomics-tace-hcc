@@ -1,0 +1,6 @@
+"family","n_features_in_family","median_features_selected","pct_splits_none_selected","C_heldout_HAP_BCLC","C_heldout_radiomics","dC_median","dC_IQR","pct_splits_radiomics_better"
+"whole_tumour_intra",22,1,42,0.665310262035849,0.649033406466035,0,"-0.024 to 0",15
+"single_zone_peri",53,0,55,0.665310262035849,0.644473838918283,0,"-0.034 to 0",7
+"cross_zone_ratio_diff",494,1,40,0.665310262035849,0.651020408163265,0,"-0.025 to 0",17
+"habitat",54,0,55,0.665310262035849,0.652466689155001,0,"-0.018 to 0",10
+"all_features",624,1,42,0.665310262035849,0.640588934147997,0,"-0.042 to 0",13

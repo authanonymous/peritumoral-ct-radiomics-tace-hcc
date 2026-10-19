@@ -1,0 +1,11 @@
+Output of code/00_run_checks.R on data/analysis_dataset_110_patients.csv (R; survival, timeROC, rms; set.seed(42), B = 500)
+
+Fixed three-feature model  apparent C = 0.713 | AUC 1/2/3 y = 0.798 / 0.742 / 0.753
+HAP+BCLC                   apparent C = 0.663 | AUC 1/2/3 y = 0.746 / 0.717 / 0.691
+HAP alone                  apparent C = 0.649 | AUC 1/2/3 y = 0.744 / 0.709 / 0.669
+
+=== Bootstrap-corrected C-index (rms::validate, B = 500) ===
+Fixed three-feature model  apparent C = 0.713 | optimism = 0.015 | corrected C = 0.698
+HAP+BCLC                   apparent C = 0.663 | optimism = 0.008 | corrected C = 0.654
+HAP alone                  apparent C = 0.649 | optimism = 0.002 | corrected C = 0.647
+Warnings arise in individual bootstrap resamples: "Ran out of iterations and did not converge" (x2); "Loglik converged before variable 5; coefficient may be infinite" (x1).

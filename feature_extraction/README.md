@@ -1,0 +1,5 @@
+# Feature extraction (3D Slicer + PyRadiomics)
+
+`3d_slicer_radiomics_extraction.py`: the 3D Slicer Python script used to extract features (PyRadiomics 3.0 in 3D Slicer 5.10.0). Paste into the Slicer Python Interactor (Ctrl+3) with a CT volume, tumour mask and liver mask loaded, or run via `exec(open("<path>").read())`. No separate `params.yaml` was used — the extractor settings are set in code (see `make_extractor()`): resampling to isotropic 1 mm spacing, fixed bin width 25 HU, IBSI-compliant feature classes (first order, GLCM, GLSZM, GLRLM, GLDM; shape features for the intratumoral region only). The script also builds the peritumoral shells (0-3, 3-5, 5-10 mm, constrained to the liver mask) and the three intratumoral habitats (k-means, k = 3) and writes one CSV row per patient/phase.
+
+This copy has been sanitised for public release: local file paths, a Windows username, and dataset-specific internal node names were replaced with generic equivalents. No analytical logic, statistical methodology, parameter value, or output was changed.

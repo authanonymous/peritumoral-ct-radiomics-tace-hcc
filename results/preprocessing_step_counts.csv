@@ -1,0 +1,7 @@
+step,columns_in_KNIME_table,non_feature_columns,radiomic_features,removed
+PyRadiomics merged table with clinical columns,1576,50,1526,
+Low-variance filter (threshold 0.09),1367,50,1317,209
+Correlation filter (|r| > 0.90; KNIME Correlation Filter),674,50,624,693
+Clinical columns removed afterwards (46); final analysis table,628,4,624,
+Univariate Cox + Benjamini-Hochberg (q < 0.05),,,5,619
+Backward elimination (P < 0.05),,,3,2
